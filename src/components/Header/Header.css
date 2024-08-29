@@ -1,0 +1,124 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height:100vh;
+    margin-top: -50px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: 0.5s;
+    transform: translateX(-100%);
+  }
+  
+  .active-anim {
+    transform: translateX(0);
+  }
+  
+  .btn-slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9;
+    width: 62px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    background: transparent;
+  }
+  .btn-slide2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9;
+    width: 75px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    background: transparent;
+    right: 0;
+  }
+  
+  .container-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  .dot:hover{
+    background-color: #f32525;
+  }
+  
+  .active {
+    background-color: #f32525;
+  }
+  .headertxt{
+    position: absolute;
+    top: 0;
+    margin: 250px 0px 0px 260px;
+  }
+  .headertxt h4{
+    background-color: white;
+    width: max-content;
+    padding: 7px 7px 7px 7px;
+    margin-bottom: 20px;
+    font-size: small;
+    letter-spacing: 1px;
+    font-family: monospace;
+  }
+  .headertxt h4::after{
+    content: "Canada";
+    color: #f32525;
+  }
+  .headertxt h1{
+    color: white;
+    font-size: xxx-large;
+    letter-spacing: 3px;
+    width: 277px;
+  }
+
+ @media screen and (max-width: 992px){
+  .headertxt {
+    position: absolute;
+    top: 0;
+    margin: 150px 0px 0px 100px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height:100vh;
+  margin-top: 0px;
+  overflow: hidden;
+}
+ }
+
+ @media (min-width:320px) and (max-width:500px){
+  .headertxt {
+    position: absolute;
+    top: 0;
+    margin: 100px 0px 0px 10px;
+}
+.headertxt h1 {
+  color: white;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  width: 277px;
+}
+ }

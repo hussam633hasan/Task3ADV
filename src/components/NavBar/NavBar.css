@@ -1,0 +1,236 @@
+nav {
+    position: relative;
+    z-index: 999;
+}
+
+.sidebar {
+    display: none;
+    position: fixed;
+    right: 0px;
+    width: 250px;
+    height: 100vh;
+    background: #ff8500;
+    z-index: 999;
+    transition: 2s;
+}
+
+.top {
+    top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #ffffff;
+    color: #939393;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+    position: fixed;
+    transition: .1s all;
+}
+
+.Nav-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #ffffff;
+    color: #939393;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.contact p {
+    margin: 0 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.socialicon a:hover {
+    filter: invert(.5);
+}
+
+.Nav-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #cdcdcd;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.logo h1 {
+    line-height: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    letter-spacing: 2px;
+}
+
+.menu a {
+    margin: 0 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.menu a:hover {
+    color: #f35525 !important;
+}
+
+.HH {
+    background-color: black;
+    color: white !important;
+    padding: 10px 40px 10px 5px;
+    border: none;
+    border-radius: 30px;
+}
+
+.calendericon {
+    padding: 7px 5px 12px 5px;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 40px;
+    background-color: rgb(243, 85, 37);
+    border-radius: 50%;
+    margin: 0px 8px -11px -5px;
+}
+
+.icon-bars {
+    display: none;
+    margin: 0 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    .sidebar {
+        display: flex;
+        position: fixed;
+        right: 0px;
+        width: 350px;
+        height: 100vh;
+        background: #ffffff;
+        z-index: 999;
+        transition: 2s;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nav-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid #cdcdcd;
+        position: fixed;
+        background-color: #ffffff;
+    }
+
+    .menu-sidebar a {
+        position: relative;
+        text-decoration: none;
+        margin: 20px 10px;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        text-decoration: none;
+        color: #1e1e1e;
+    }
+
+    .menu-sidebar a:hover {
+        color: #f35525 !important;
+    }
+
+    .top {
+        top: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background: 0;
+        color: #000000;
+        border-bottom: 0;
+        height: 50px;
+        align-items: center;
+        position: fixed;
+        transition: .1s all;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .HH {
+        background-color: black;
+        color: white;
+        padding: 0px 20px 0px 0px;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .calendericon {
+        padding: 8px 5px 12px 5px;
+        color: rgb(255, 255, 255);
+        height: 20px;
+        width: 40px;
+        background-color: rgb(243, 85, 37);
+        border-radius: 50%;
+        margin: 0px 8px 0px -5px;
+    }
+
+    .icon-bars {
+        display: block;
+        margin: 0 20px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+
+    .Xmark-icon {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .Nav-1 {
+        display: none;
+    }
+
+    .Nav-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid #cdcdcd;
+        position: fixed;
+        background-color: #ffffff;
+        top: 0px;
+    }
+
+}

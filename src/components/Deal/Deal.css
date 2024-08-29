@@ -1,0 +1,200 @@
+.headDeal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.headDealtxt h4 {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.headDealtxt h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+
+.headDealbtn {
+    margin-top: 28px;
+}
+
+.headDealbtn button {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 25px;
+    color: #fff;
+    margin: 0 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.headDealbtn-active  {
+    background-color: #f35525 !important;
+}
+
+.contentDeal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.Dealtablet {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px #aaaaaa;
+    width: 300px;
+    margin-left: 85px;
+}
+
+.Deal-hh {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    border-bottom: 1px solid #ececec;
+    padding-top: 25px;
+}
+.Dealtxt{
+    width: 380px;
+}
+.Dealtxt p {
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(74, 74, 74);
+    margin: 30px 0px;
+}
+
+.Dealtxt h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.HHDeal {
+    background-color: black;
+    color: white;
+    padding: 14px 40px 14px 0px;
+    border: none;
+    border-radius: 30px;
+}
+
+.headpropetry {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.headpropetry h4 {
+    position: relative;
+    transform: translateY(315%);
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.headpropetry h1 {
+    position: relative;
+    transform: translateY(50%);
+    height: 175px;
+    font-size: xxx-large;
+    letter-spacing: 1px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .headDeal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .headDealtxt h4 {
+        color: #ee626b;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .headDealtxt h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 20px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .contentDeal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 45px;
+    }
+
+    .Dealtablet {
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0px #aaaaaa;
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .headDealbtn {
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .headDealbtn button {
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #1e1e1e;
+        border-radius: 5px;
+        height: 50px;
+        line-height: 50px;
+        display: inline-block;
+        padding: 0px 25px;
+        color: #fff;
+        margin: 10px 30px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Dealimg img{
+        margin: 55px 0px;
+        width: 300px;
+    }
+
+    .Dealtxt {
+        width: 300px;
+        text-align: center;
+    }
+
+    .headpropetry h1 {
+        position: relative;
+        transform: translateY(50%);
+        height: 175px;
+        font-size: xxx-large;
+        letter-spacing: 1px;
+        width: 315px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

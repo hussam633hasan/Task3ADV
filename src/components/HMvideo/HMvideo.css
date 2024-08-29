@@ -1,0 +1,180 @@
+.viwe{
+    width: 95%;
+    background-image: url(/Task2/images/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.viwe h6{
+    position: relative;
+    transform: translateY(315%);
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.viwe h1{
+    position: relative;
+    transform: translateY(50%);
+    height: 175px;
+    color: white;
+    font-size: xxx-large;
+    letter-spacing: 1px;
+    width: 450px;
+    margin: 0 auto;
+}
+.viwe a{
+    position: absolute;
+    margin: 232px 0 0 0px;
+    z-index: 9;
+    position: absolute;
+    transform: translate(-26px, -26px);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+    color: #f35525;
+    outline: 15px solid rgba(254, 85, 37, 0.5);
+    font-size: 18px;
+}
+.vedioframe img{
+    position: absolute;
+    margin: -450px 0 0 326px;
+    height: 400px;
+    border-radius: 10px;
+}
+.counterparent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.counter h1 {
+    margin-right: 30px;
+    font-size: 45px;
+    color: #f35525;
+    margin-left: 20px;
+}
+.counter p {
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+.counter:after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+@media screen and (max-width: 992px){
+    .vedioframe img {
+        position: absolute;
+        margin: -450px 0px 0 24px;
+        height: 365px;
+        border-radius: 10px;
+        width: 95%;
+    }
+    .counterparent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .counter {
+        background-color: #ffeee9;
+        position: relative;
+        border-radius: 10px;
+        width: 270px;
+        padding: 20px 0px;
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .viwe {
+        width: 95%;
+        background-image: url(/public/images/img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        height: 500px;
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+    .viwe h1 {
+        position: relative;
+        transform: translateY(50%);
+        height: 175px;
+        color: white;
+        font-size: xx-large;
+        letter-spacing: 1px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .counterparent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .counter {
+        background-color: #ffeee9;
+        position: relative;
+        border-radius: 10px;
+        width: 270px;
+        padding: 20px 0px;
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .vedioframe img {
+        position: absolute;
+        margin: -337px 0 0 8px;
+        height: 280px;
+        border-radius: 10px;
+        width: 95%;
+    }
+    .viwe a {
+        position: absolute;
+        margin: 166px 0 0 0px;
+        z-index: 9;
+        position: absolute;
+        transform: translate(-26px, -26px);
+        width: 52px;
+        height: 52px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        line-height: 52px;
+        color: #f35525;
+        outline: 15px solid rgba(254, 85, 37, 0.5);
+        font-size: 18px;
+    }
+}

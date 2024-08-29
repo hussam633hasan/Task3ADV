@@ -1,0 +1,94 @@
+.Propertycards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Propertycard{
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0px 50px 50px 0;
+    width: 406px;
+}
+.imgcard img{
+    border-radius: 10px;
+}
+.pricecard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricecard h4{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.pricecard h1{
+    font-size: 20px;
+    color: #f35525;
+    display: inline-block;
+    margin-top: 30px;
+}
+.titlecard h1{
+    font-size: 19px;
+    margin: 25px 0px;
+}
+.titlecard p{
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-right: 20px;
+    letter-spacing: 5px;
+}
+.btncard{
+    text-align: center;
+}
+.btncard button{
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+    cursor: pointer;
+    border: none;
+}
+.btncard button:hover{
+    background-color: #f35525;
+}
+
+@media screen and (max-width: 992px){
+    .Propertycards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+    }
+    .Propertycard {
+        background-color: #fafafa;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 0px 10px 50px 0;
+        width: 300px;
+    }
+    .imgcard img{
+        border-radius: 10px;
+        width: 290px;
+    }
+}

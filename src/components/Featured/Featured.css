@@ -1,0 +1,142 @@
+.Featured {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.featured-icon {
+  background-color: #f32525;
+  border-radius: 100%;
+  width: 80px;
+  margin: -35px -55px;
+  position: relative;
+}
+
+.featured-img {
+  width: 360px;
+  border-radius: 5px;
+}
+
+.Featuredtxt {
+  margin-bottom: 40px;
+  width: 320px;
+}
+
+.HM {
+  margin: 0px -100px;
+}
+
+.Featuredtxt h4 {
+  color: #f35525;
+  margin-bottom: 25px;
+}
+
+.Featuredtxt h1 {
+  font-size: xxx-large;
+}
+
+.accordion-containerr {
+  width: 450px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.accordion-contentt {
+  padding: 10px;
+}
+
+.accordion-containerr h1 {
+  border-bottom: 1px solid rgba(25, 25, 28, 1) !important;
+}
+
+.accordion-i {
+  font-size: 20px;
+  border-bottom: 1px solid rgb(220, 220, 220) !important;
+}
+
+.accordion-headerr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.accordion-headerr:hover {
+  background-color: #ffae95;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.info {
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px #aaaaaa;
+  height: 515px;
+}
+
+.info-hh {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 35px 0px;
+  border-bottom: 1px solid #ececec;
+  padding: 0 0 25px 0px;
+}
+@media screen and (max-width: 1300px){
+  .Featured {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+  .HM {
+    margin: 50px -100px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Featured {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.featured-img {
+  width: 300px;
+  border-radius: 5px;
+}
+.featured-icon {
+  background-color: #f32525;
+  border-radius: 100%;
+  width: 70px;
+  margin: 355px -6px;
+  position: absolute;
+}
+.HM {
+  margin: 39px 0px;
+  width: 300px;
+}
+.Featuredtxt {
+  margin-bottom: 40px;
+  width: 300px;
+}
+.Featuredtxt h1 {
+  font-size: xx-large;
+}
+.accordion-containerr {
+  width: 300px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+}
